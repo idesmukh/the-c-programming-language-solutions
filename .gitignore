@@ -1,0 +1,19 @@
+# Add to .gitignore
+# Compiled files
+*
+!*/
+!*.[ch]
+!Makefile
+!README.md
+!.gitignore
+!.vscode/
+
+# VS Code settings
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# macOS specific
+.DS_Store
+*.dSYM/

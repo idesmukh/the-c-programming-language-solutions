@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/* Count characters in input; 1st version */
+/* Count blanks, tabs, and newlines in input */
 int main() {
-  long nc;
+  int c, nl;
 
-  nc = 0;
-  while (getchar() != EOF) {
-    ++nc;
-  }
-  printf("%ld\n", nc);
+  nl = 0;
+  while ((c = getchar()) != EOF)
+      if (c == '\n')
+          ++nl;
+  printf("%d\n", nl);
 }

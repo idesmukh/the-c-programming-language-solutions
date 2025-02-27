@@ -17,4 +17,6 @@ int main() {
     }
     lastc = c;
   }
+  
+  return 0;
 }

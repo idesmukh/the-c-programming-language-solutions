@@ -10,7 +10,7 @@ Test 5: Leave some blanks and then input word
 #define IN 1    /* inside a word */
 #define OUT 0   /* outside a word */
 
-/* count lines, words, and characters in input */
+/* Count lines, words, and characters in input */
 int main() {
   int c, nl, nw, nc, state;
 

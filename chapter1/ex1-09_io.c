@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Print the input while replacing series of blanks 
+/* print the input while replacing series of blanks 
 with one blank */
 int main() {
   int c, lastc;

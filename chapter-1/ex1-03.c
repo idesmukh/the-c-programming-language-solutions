@@ -6,9 +6,9 @@ int main() {
   float fahr, celsius;
   int lower, upper, step;
 
-  lower = 0;   // lower limit
+  lower = 0; // lower limit
   upper = 300; // upper limit
-  step = 20;   // step size
+  step = 20; // step size
   fahr = lower;
 
   printf("Fahrenheit Celsius\n"); // Print heading above table.

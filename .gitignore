@@ -10,9 +10,6 @@
 
 # VS Code settings
 .vscode/*
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/settings.json
 
 # macOS specific
 .DS_Store

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* print fahrenheit-celcius table */
+// Print fahrenheit-celcius table.
 int main() {
   int fahr;
   

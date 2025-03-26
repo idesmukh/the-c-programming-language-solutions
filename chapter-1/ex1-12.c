@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-#define IN 1    /* inside word */
-#define OUT 0   /* outside word */
+#define IN 1  // inside word
+#define OUT 0 // outside word
 
-/* print input at one word per line */
+// Print input at one word per line.
 int main() {
   int c, state;
 

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* count blanks, tabs, and newlines in input */
+// Count blanks, tabs, and newlines in input.
 int main() {
   int c, blanks_count, tab_count, newline_count;
   blanks_count = 0;

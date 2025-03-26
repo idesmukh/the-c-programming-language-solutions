@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/* print tabs, backspaces and backslashes as 
-actual characters */
+// Print tabs, backspaces and backslashes as 
+// actual characters.
 int main() {
   int c;
 

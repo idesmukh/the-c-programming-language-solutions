@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/* print the input while replacing series of blanks 
-with one blank */
+// Print the input while replacing series of blanks
+// with one blank.
 int main() {
   int c, lastc;
-  lastc = 'x'; /* assign arbitrary value to avoid random events */
+  lastc = 'x'; // Assign arbitrary value to avoid random events.
 
   while ((c = getchar()) != EOF) {
     if (c != ' ') {
